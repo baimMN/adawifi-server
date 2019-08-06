@@ -1,7 +1,7 @@
 {
 	"name": "property",
 	"version": "1.0.0",
-	"description": "Meteor / RoomMe ~ Property Service",
+	"description": "Meteor@RoomMe ~ Property Service",
 	"main": "index.js",
 	"scripts": {
 		"start": "NODE_ENV=production node index.js",
@@ -12,11 +12,11 @@
 	"dependencies": {
 		"dotenv": "^7.0.0",
 		"express": "^4.16.4",
-		"mtr-auth": "git+ssh://git@repository.meteor.co.id/mtr-platform/libs/auth",
-		"mtr-health": "git+ssh://git@repository.meteor.co.id/mtr-platform/libs/health",
-		"mtr-mysql": "git+ssh://git@repository.meteor.co.id/mtr-platform/libs/sql-database",
-		"mtr-response": "git+ssh://git@repository.meteor.co.id/mtr-platform/libs/response",
-		"mtr-validator": "git+ssh://git@repository.meteor.co.id/mtr-platform/libs/validation"
+		"mtr-auth": "git+ssh://git@repository.meteor.co.id/roomme/libraries/auth",
+		"mtr-health": "git+ssh://git@repository.meteor.co.id/roomme/libraries/health-check",
+		"mtr-mysql": "git+ssh://git@repository.meteor.co.id/roomme/libraries/sql-database",
+		"mtr-response": "git+ssh://git@repository.meteor.co.id/roomme/libraries/response",
+		"mtr-validator": "git+ssh://git@repository.meteor.co.id/roomme/libraries/validation"
 	},
 	"devDependencies": {
 		"eslint": "^5.12.1",
